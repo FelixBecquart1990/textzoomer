@@ -18,10 +18,21 @@ export default {
 </script>
 
 <style>
-
-
 * {
-  font-size: 14px;
-  color:rgba(0,0,0,.84);
+  font-family: mainFont;
+  color:rgba(0,0,0,.9);
 }
+*,
+*:active,
+*:focus {
+  user-select: none;
+  outline: none;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: mainFont;
+  src: url("/static/charter-400-normal.woff");
+}
+
 </style>
